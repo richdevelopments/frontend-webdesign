@@ -1,0 +1,190 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700);
+
+body {
+    font-family: 'Open Sans Semibold', sans-serif;
+}
+
+.navdefault {
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+.container-fluid {
+  padding-top: 100px;
+}
+
+
+ /* images */
+ 
+logo {
+  position: fixed
+  
+}
+
+img {
+  width: 220px;
+  height: 60px;
+
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+.email-img {
+    width: 100%;
+    height: 35px;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    background-image: url(assets/images/screenshot-2019-08-02-at-10-16-55-158681-png.png);
+    background-size: auto 80%;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+
+ /* cards */
+ 
+.card-signin img {
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.card-signin {
+  border: 0;
+  /*border-radius: 1rem;*/
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-signin .card-body {
+  padding: 2rem;
+}
+
+form-signin {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  /*padding-bottom: 1rem;*/
+  transition: all 0.2s;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.center-form {
+    margin: 0 auto;
+}
+
+
+ /* circle icons */
+ 
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 78px;
+  width: 95px;
+  height: 95px;
+  border: 6px solid #ffffff;
+  border-radius: 400px;
+  background-image: linear-gradient(75deg, #f0f0f0 3%, #d1e3f0 100%);
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.05), 0px 0px 3px rgba(0, 0, 0, 0.05), 0px 2px 8px rgba(0, 0, 0, 0.15);
+  margin-bottom: -78px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.circle.done:after {
+  content: " ";
+  width: 30px;
+  height: 30px;
+  background: turquoise;
+  position: absolute;
+  right: -8px;
+  bottom: -8px;
+  border-radius: 600px;
+  background-image: url(http://www.sclance.com/pngs/white-checkmark-png/white_checkmark_png_1506305.png);
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+ .material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+ }
+ 
+  /* buttons */
+  
+ .btn-default {
+   width: 165px;
+   height: 50px;
+   border-radius: 300px;
+   background-color: #00a87e;
+   background-size: cover;
+   font-family: Open Sans;
+   font-size: 14px;
+   color: #ffffff;
+   text-decoration: none solid rgb(255, 255, 255);
+   text-align: center;
+ }
+
+ .btn-warning {
+  width: 123px;
+  height: 50px;
+  padding: 0px 0px 0px 0px;
+  border-radius: 300px;
+  background-color: #eb9c00;
+  background-size: cover;
+  font-family: Open Sans;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: center;
+}
+
+i {
+  padding: 0px 10px 0px 5px;
+}
+
+h5 {
+    font-family: Open Sans;
+    color: #48494d;
+    font-weight: 600;
+}
+
+h6 {
+    font-family: Open Sans;
+    color: #2e2f31;
+    font-weight: 600;
+}
+
+/*.thanks-message {*/
+/*  padding: 5px;*/
+/*}*/
